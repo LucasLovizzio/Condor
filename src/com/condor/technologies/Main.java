@@ -21,7 +21,7 @@ public class Main {
         // Servicio de pago con billetes.
         // Descomentar la siguiente sección para ejecutar el servicio de pago con billetes.
 
-        List<Billete> billetes = new ArrayList<>(Arrays.asList(
+        /*List<Billete> billetes = new ArrayList<>(Arrays.asList(
             new Billete(100, 5),
             new Billete(50, 5),
             new Billete(20, 5),
@@ -34,7 +34,7 @@ public class Main {
         CajaService cs = new CajaService(strategy, billetes);
         int monto = 499;
 
-        cs.ejecutar(monto);
+        cs.ejecutar(monto);*/
 
         // Servicio de listado de mails.
         // Descomentar las siguientes lineas para utilizar el servicio de listado de mails
