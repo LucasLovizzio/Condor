@@ -23,7 +23,7 @@ public class MailOrder {
         // Procesar cada criterio
         for (String criterio : criterios) {
             criterio = criterio.trim();
-            if (!criterio.matches("^(!?)([A-Z]+)-(FIFO|LIFO)$")) continue;
+            if (!criterio.matches("^(!?)([A-Z]+)-([A-Z]+)$")) continue;
 
             String[] partes = criterio.split("-"); // Dividir en flag y estrategia
             boolean esNegacion = partes[0].startsWith("!"); // Verificar si es una negación
